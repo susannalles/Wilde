@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Happy Prince, and Other Tales</title>
+        <author xml:id="Wilde">Oscar Wilde</author>
+        <respStmt>
+          <resp>Encoded by </resp>
+          <persName xml:id="SAT">Susanna Alles-Torrent</persName>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <p>Exercise encoding for the "Sustainable digital publication" Seminar, Università di
+          Verona, 19-29 May 2025. </p>
+      </publicationStmt>
+
+      <sourceDesc>
+        <p>The text has been taken from <bibl><author>Oscar Wilde</author>
+            <title>The Happy Prince and Other Tales</title>
+            <publisher>David Nutt</publisher>
+            <pubPlace>London</pubPlace>
+            <date when="1888">1888</date></bibl>.</p>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2025-05-22">Creation of XML-TEI file. </change>
+      <change when="2025-05-26">Revision of the file for persName and name tags.</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+
+      <div type="chapter" xml:id="selfish-giant">
+
+        <head type="level2">The Selfish Giant</head>
+
+        <p>Every afternoon, as they were coming from school, the <persName corresp="#children"
+            >children</persName> used to go and play in the <placeName>Giant's
+            garden</placeName><ref xml:id="n_note1" n="1" target="#note1">1</ref>.</p>
+
+        <p>It was a large lovely <term corresp="#garden">garden</term>, with soft green grass. Here
+          and there over the grass stood beautiful flowers like stars, and there were twelve peach
+          trees that in the springtime broke out into delicate <term corresp="#blossoms"
+            >blossoms</term> of pink and pearl, and in the autumn bore rich fruit. The birds sat on
+          the trees and sang so sweetly that the <persName corresp="#children">children</persName>
+          used to stop their games to listen to them. <q who="#children">“How happy we are
+            here!”</q> they cried to each other.</p>
+
+        <p>One day the <persName corresp="#giant">Giant</persName> came back. He had been to visit
+          his friend the <persName corresp="#ogre">Cornish ogre</persName>, and had stayed with him
+          for seven years. When he arrived he saw the <persName corresp="#children"
+            >children</persName> playing in the garden.</p>
+
+        <p><q who="#giant">“What are you doing here?”</q> he cried in a very gruff voice, and the
+            <persName corresp="#children">children</persName> ran away.</p>
+
+        <p><q who="#giant">“My own garden is my own garden,”</q> said the <persName corresp="#giant"
+            >Giant</persName>; <q who="#giant">“any one can understand that, and I will allow nobody
+            to play in it but myself.”</q> So he built a high wall all round it, and put up a
+          notice-board:</p>
+
+        <p><q who="#giant">TRESPASSERS WILL BE PROSECUTED</q></p>
+
+        <p>He was a very selfish <persName corresp="#giant">Giant</persName>.</p>
+
+        <p>The poor <persName corresp="#children">children</persName> had now nowhere to play. They
+          tried to play on the road, but the road was very dusty and full of hard stones, and they
+          did not like it. They used to wander round the high wall when their lessons were over, and
+          talk about the beautiful garden inside. <q who="#children">“How happy we were there,”</q>
+          they said to each other.</p>
+
+        <p>Then the <name corresp="#spring">Spring</name> came, and all over the country there were
+          little blossoms and little birds. Only in the garden of the <persName corresp="#giant"
+            >Selfish Giant</persName> it was still <name corresp="#winter">Winter</name>. The birds
+          did not care to sing in it as there were no <persName corresp="#children"
+            >children</persName>, and the trees forgot to blossom. Once a beautiful flower put its
+          head out from the grass, but when it saw the notice-board it was so sorry for the
+            <persName corresp="#children">children</persName> that it slipped back into the ground
+          again, and went off to sleep. The only people who were pleased were the <name
+            corresp="snow">Snow</name> and the <name corresp="#frost">Frost</name>.</p>
+
+        <p><q who="#snow #frost">“Spring has forgotten this garden,”</q> they cried, <q who="#snow #frost"
+            >“so we will live here all the year round.”</q></p>
+
+        <p>The <name corresp="#snow">Snow</name> covered up the grass with her great white cloak,
+          and the <name corresp="#frost">Frost</name> painted all the trees silver. Then they
+          invited the <name corresp="#north_wind">North Wind</name> to stay with them, and he came.
+          He was wrapped in furs, and he roared all day about the garden, and blew the chimney-pots
+          down.</p>
+
+        <p><q who="#snow #frost">“This is a delightful spot,” he said, “we must ask the <name corresp="hail"
+              >Hail</name> on a visit.”</q> So the <name corresp="#hail">Hail</name> came. Every day
+          for three hours he rattled on the roof of the castle till he broke most of the slates, and
+          then he ran round and round the garden as fast as he could go. He was dressed in grey, and
+          his breath was like ice.</p>
+
+        <p><q who="#giant">“I cannot understand why the Spring is so late in coming,”</q> said the
+            <persName corresp="#giant">Selfish Giant</persName>, as he sat at the window and looked
+          out at his cold white garden. <q who="#giant">“I hope there will be a change in the
+            weather.”</q></p>
+
+        <p>But the <name corresp="#spring">Spring</name> never came, nor the <name xml:id="summer"
+            >Summer</name>. The <name corresp="#autumn">Autumn</name> gave golden fruit to every
+          garden, but to the <persName corresp="#giant">Giant</persName>’s garden she gave none. <q
+            who="#autumn">“He is too selfish,”</q> she said. So it was always <name corresp="winter"
+            >Winter</name> there, and the <name>North Wind</name> and the <name corresp="#hail"
+            >Hail</name>, and the <name>Frost</name>, and the <name>Snow</name> danced about through
+          the trees.</p>
+
+        <p>One morning the <persName corresp="#giant">Giant</persName> was lying awake in bed when he heard some
+          lovely music. It sounded so sweet to his ears that he thought it must be the <name>King’s
+            musicians</name> passing by. It was really only a <name>little linnet</name> singing
+          outside his window, but it was so long since he had heard a bird sing in his garden that
+          it seemed to him to be the most beautiful music in the world. Then the <name
+            corresp="#hail">Hail</name> stopped dancing over his head, and the <name>North
+            Wind</name> ceased roaring, and a delicious perfume came to him through the open
+          casement. <q who="#giant">“I believe the Spring has come at last,”</q> said the <persName
+            corresp="#giant">Giant</persName>; and he jumped out of bed and looked out.</p>
+
+        <p>What did he see?</p>
+
+        <p>He saw a most wonderful sight. Through a little hole in the wall the <name
+            corresp="#children">children</name> had crept in, and they were sitting in the branches
+          of the trees. In every tree that he could see there was a little child. And the trees were
+          so glad to have the children back again that they had covered themselves with blossoms,
+          and were waving their arms gently above the children’s heads. The birds were flying about
+          and twittering with delight, and the flowers were looking up through the green grass and
+          laughing. It was a lovely scene, only in one corner it was still <name>Winter</name>. It
+          was the farthest corner of the garden, and in it was standing a <name>little boy</name>.
+          He was so small that he could not reach up to the branches of the tree, and he was
+          wandering all round it, crying bitterly. The poor tree was still quite covered with frost
+          and snow, and the <name>North Wind</name> was blowing and roaring above it. <q who="tree"
+            >“Climb up! little boy,”</q> said the <name corresp="tree">Tree</name>, and it bent its
+          branches down as low as it could; but the boy was too tiny.</p>
+
+        <p>And the <persName corresp="#giant">Giant</persName>’s heart melted as he looked out.</p>
+
+        <p><q who="#giant">“How selfish I have been!”</q> he said; <q who="#giant">“now I know why
+            the Spring would not come here. I will put that poor little boy on the top of the tree,
+            and then I will knock down the wall, and my garden shall be the children’s playground
+            for ever and ever.”</q></p>
+
+        <p>He was really very sorry for what he had done. So he crept downstairs and opened the
+          front door quite softly, and went out into the garden. But when the children saw him they
+          were so frightened that they all ran away, and the garden became <name>Winter</name>
+          again. Only the <name>little boy</name> did not run, for his eyes were so full of tears
+          that he did not see the <persName corresp="#giant">Giant</persName> coming. And the
+            <persName corresp="#giant">Giant</persName> stole up behind him and took him gently in
+          his hand, and put him up into the tree. And the tree broke at once into blossom, and the
+          birds came and sang on it, and the little boy stretched out his two arms and flung them
+          round the Giant’s neck, and kissed him. And the other children, when they saw that the
+          Giant was not wicked any longer, came running back, and with them came the
+            <name>Spring</name>.</p>
+
+        <p><q who="#giant">“It is your garden now, little children,”</q> said the <persName
+            corresp="#giant">Giant</persName>, and he took a great axe and knocked down the
+          wall.</p>
+
+        <p>And when the people went to market at twelve o’clock they found the <persName
+            corresp="#giant">Giant</persName> playing with the children in the most beautiful garden
+          they had ever seen.</p>
+
+        <p>All day long they played, and in the evening they came to the <persName corresp="#giant"
+            >Giant</persName> to bid him good-bye.</p>
+
+        <p><q who="#giant">“But where is your little companion?”</q> he said; <q who="#giant">“the
+            boy I put into the tree.”</q></p>
+
+        <p>The <persName corresp="#giant">Giant</persName> loved him the best because he had kissed
+          him.</p>
+
+        <p><q who="#children">“We don’t know,”</q> answered the children; <q who="#children">“he has
+            gone away.”</q></p>
+
+        <p><q who="#giant">“You must tell him to be sure and come here tomorrow,”</q> said the
+            <persName corresp="#giant">Giant</persName>. But the <name corresp="#children"
+            >children</name> said that they did not know where he lived, and had never seen him
+          before; and the <persName corresp="#giant">Giant</persName> felt very sad.</p>
+
+        <p>Every afternoon, when school was over, the children came and played with the <persName
+            corresp="#giant">Giant</persName>. But the <name>little boy</name> whom the <persName
+            corresp="#giant">Giant</persName> loved was never seen again. The <persName
+            corresp="#giant">Giant</persName> was very kind to all the <name corresp="#giant"
+            >children</name>, yet he longed for his first little friend, and often spoke of him.</p>
+
+        <p><q who="#giant">“How I would like to see him!”</q> he used to say.</p>
+
+        <p>Years went over, and the <persName corresp="#giant">Giant</persName> grew very old and
+          feeble. He could not play about any more, so he sat in a huge armchair, and watched the
+          children at their games, and admired his garden. <q who="#giant">“I have many beautiful
+            flowers,”</q> he said; <q who="#giant">“but the children are the most beautiful flowers of
+          all.”</q></p>
+
+
+        <p>One winter morning he looked out of his window as he was dressing. He did not hate the
+            <name>Winter</name> now, for he knew that it was merely the <name>Spring</name> asleep,
+          and that the flowers were resting. </p>
+
+        <p>Suddenly he rubbed his eyes in wonder and looked and looked. It certainly was a
+          marvellous sight. In the farthest corner of the garden was a tree quite covered with
+          lovely white blossoms. Its branches were all golden, and silver fruit hung down from them,
+          and underneath it stood the <name>little boy</name> he had loved. </p>
+
+        <p>Downstairs ran the <persName corresp="#giant">Giant</persName> in great joy, and out into the garden. He
+          hastened across the grass, and came near to the child. And when he came quite close his
+          face grew red with anger, and he said, <q who="#giant">“Who hath dared to wound thee?”</q>
+          For on the palms of the child’s hands were the prints of two nails, and the prints of two
+          nails were on the little feet. </p>
+
+        <p><q who="#giant">“Who hath dared to wound thee?”</q> cried the Giant; <q who="#giant"
+            >“tell me, that I may take my big sword and slay him.”</q>
+        </p>
+        <p><q who="#little_boy">“Nay!”</q> answered the child; <q who="#little_boy">“but these are
+            the wounds of Love.”</q>
+        </p>
+        <p><q who="#giant">“Who art thou?”</q> said the <persName corresp="#giant">Giant</persName>,
+          and a strange awe fell on him, and he knelt before the <name>little child</name>. </p>
+
+        <p>And the <name>child</name> smiled on the <persName corresp="#giant">Giant</persName>, and said to him, <q
+            who="#little_boy">“You let me play once in your garden, today you shall come with me to
+            my garden, which is Paradise.”</q>
+        </p>
+
+        <p>And when the <name>children</name> ran in that afternoon, they found the
+            <persName corresp="#giant">Giant</persName> lying dead under the tree, all covered with white blossoms.
+        </p>
+      </div>
+      
+      <div type="chapter" xml:id="other_tales">
+        <!-- before and after you could add other chapters or tales.  -->
+        <head type="level2">Other tales...</head>
+        
+        <p>Lorem Ipsum is simply dummy text of the printing
+          and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an
+          unknown printer took a galley of type and scrambled it to
+          make a type specimen book.</p>
+      </div>
+    </body>
+
+    <back>
+
+      <div xml:id="characterList">
+        <listPerson>
+          <person>
+            <persName xml:id="children">Children</persName>
+          </person>
+          <person>
+            <persName xml:id="giant">Giant</persName>
+          </person>
+          <person>
+            <persName xml:id="ogre">Cornish ogre</persName>
+          </person>
+          <person>
+            <name xml:id="spring">Spring</name>
+          </person>
+          <person>
+            <name xml:id="winter">Winter</name>
+          </person>
+          <person>
+            <name xml:id="north_wind">North Wind</name>
+          </person>
+          <person>
+            <name xml:id="hail">Hail</name>
+          </person>
+          <person>
+            <name xml:id="frost">Frost</name>
+          </person>
+          <person>
+            <name xml:id="snow">Snow</name>
+          </person>
+          <person>
+            <persName xml:id="little_boy">Little boy</persName>
+          </person>
+          <person>
+            <name xml:id="king_musicians">King’s musicians</name>
+          </person>
+          <person>
+            <name xml:id="tree">Tree</name>
+          </person>
+        </listPerson>
+      </div>
+
+      <div xml:id="notes">
+        <note xml:id="note1" n="1" target="#n_note1">This would be the first note. </note>
+        <note xml:id="note2" n="2" target="#n_note2">This would be the second note.</note>
+      </div>
+
+      <div type="glossary">
+        <list type="glossary">
+
+          <item><term xml:id="garden">Garden</term>
+            <gloss>Allegorical interpretation of the garden.</gloss></item>
+          <item>
+            <term xml:id="blossom">Blossom</term>
+            <gloss>Allegorical interpretation of blossoms. </gloss>
+          </item>
+        </list>
+      </div>
+
+      <div type="bibliography">
+        <bibl>Bibliographic reference</bibl>
+        <bibl>Bibliographic reference</bibl>
+      </div>
+
+    </back>
+  </text>
+</TEI>
